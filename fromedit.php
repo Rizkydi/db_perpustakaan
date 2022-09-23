@@ -18,7 +18,7 @@ if(mysqli_num_rows($query) < 1){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Database Perpustakaan Starbhak Pusaka</title>
-    <link rel="stylesheet" href="style-4.css">
+    <link rel="stylesheet" href="style-fromedit.css">
     <!-- font inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,23 +31,26 @@ if(mysqli_num_rows($query) < 1){
 
         <img src="Hero.png" alt="">
     </div>
+    <div class="container-2">
+        <h2>Perpustakaan SMK Taruna Bhakti</h2>
+    </div>
     <div class="list-sidebar">
         <ul>
             <li><a href="tampilandatasiswa.php">Data Siswa</a></li>
-            <li><a href="">Data Peminjaman Buku</a></li>
-            <li><a href="">Data Pengembalian Buku</a></li>
+            <li><a href="">Data Buku</a></li>
         </ul>
-    <!-- untuk menu bottom -->
-        <h2>Starbhak Pustaka</h2>
-        <h4>From SMK Taruna Bhakti</h4>
     </div>
-
+<div class="form-1">
     <form action="edit.php" method="post">
 <h3>edit data </h3>
 <p><label>NISN siswa : <input  value="<?php echo $pel['NISN_siswa']?>" required="required" type="hidden" name="NISN_siswa"></label></p>
 <p><label>nama siswa : <input value="<?php echo $pel['nama_siswa']?>" required="required" type="text" name="nama_siswa"></label></p>
-<p><label>TTL_siswa : <input value="<?php echo $pel['TTL_siswa']?>" required="required" type="text" name="TTL_siswa"></label></p>
+<p><label>TGL_Peminjaman : <input value="<?php echo $pel['TGL_Peminjaman']?>" required="required" type="date" name="TGL_Peminjaman"></label></p>
 <p><label>No_telepon : <input value="<?php echo $pel['No_telepon']?>" required="required" type="number" name="No_telepon"></label></p>
-<p><label>Alamat: <input value="<?php echo $pel['Alamat']?>" required="required" type="text" name="Alamat"></label></p>
+<p><label>TGL_Pengembalian: <input value="<?php echo $pel['TGL_Pengembalian']?>" required="required" type="date" name="TGL_Pengembalian"></label></p>
+<div class="btn-simpan">
 <input type="submit" name="simpan" value="simpan">
+</div>
+</div>
 </form>
+

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style-3.css">
+    <link rel="stylesheet" href="style-tambahdata.css">
     <!-- font inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,26 +18,27 @@
 
         <img src="Hero.png" alt="">
     </div>
+    <div class="container-2">
+        <h2>Perpustakaan SMK Taruna Bhakti</h2>
+    </div>
     <div class="list-sidebar">
         <ul>
             <li><a href="tampilandatasiswa.php">Data Siswa</a></li>
-            <li><a href="">Data Peminjaman Buku</a></li>
-            <li><a href="">Data Pengembalian Buku</a></li>
+            <li><a href="tampilandatabuku.php">Data Buku</a></li>
         </ul>
-    <!-- untuk menu bottom -->
-        <h2>Starbhak Pustaka</h2>
-        <h4>From SMK Taruna Bhakti</h4>
     </div>
-    
+<div class="form">
     <form action="simpan.php" method="post">
         <h3>Add New Data</h3>
         <p><label>NISN siswa : <input required="required" type="number" name="NISN_siswa"></label></p>
         <p><label>nama siswa : <input required="required" type="text" name="nama_siswa"></label></p>
-        <p><label>TTL siswa : <input required="required" type="text" name="TTL_siswa"></label></p>
+        <p><label>TGL_Peminjaman: <input required="required" type="date" name="TGL_Peminjaman"></label></p>
         <p><label>No telepon : <input required="required" type="number" name="No_telepon"></label></p>
-        <p><label>Alamat : <input required="required" type="text" name="Alamat"></label></p>
+        <p><label>TGL_Pengembalian : <input required="required" type="date" name="TGL_Pengembalian"></label></p>
+        <div class="btn-simpan">
         <input type="submit" name="simpan" value="simpan">
+        </div>
     </form>
-    
+</div>   
 </body>
 </html>

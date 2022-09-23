@@ -9,7 +9,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Starbhak Pusaka</title>
-    <link rel="stylesheet" href="style-1.css">
+    <style>
+        <?php 
+        include 'style-index.css'
+        ?>
+    </style>
+    <link rel="stylesheet" href="style-index.css">
     <!-- font inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,19 +25,17 @@
     <!-- untuk menu head -->
     <div class="container">
         <h2>Starbhak Pustaka</h2>
-
         <img src="Hero.png" alt="">
     </div>
+    <div class="container-2">
+        <h2>Perpustakaan SMK Taruna Bhakti</h2>
+    </div>
+    <!-- untuk menu sidebar content -->
     <div class="list-sidebar">
         <ul>
             <li><a href="tampilandatasiswa.php">Data Siswa</a></li>
-            <li><a href="">Data Peminjaman Buku</a></li>
-            <li><a href="">Data Pengembalian Buku</a></li>
-        </ul>
-    <!-- untuk menu bottom -->
-        <h2>Starbhak Pustaka</h2>
-        <h4>From SMK Taruna Bhakti</h4>
+            <li><a href="tampilandatabuku.php">Data Buku</a></li>
+        </ul> 
     </div>
-    
 </body>
 </html>

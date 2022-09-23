@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #5F6F94;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    width:  23%;
+    background-color: #FFFFFF;
+    height: 77px;
+    left: 5px;
+}
+
+.container img {
+    width: 80px;
+    height: 85px;
+    left: 80px;
+}
+
+.container h2 {
+    float: left;
+    font-size: 35px;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 0px;
+}
+
+.container-2 {
+    background-color: #2B2736;
+    position: absolute;
+    width: 1478px;
+    height: 77px;
+    left: 450px;
+    top: 0px;
+    margin-left: -25px;
+}
+
+.container-2 h2 {
+    font-size: 36px;
+    color: #FFFFFF;
+    text-align: center;
+    bottom: 5px;
+    position: absolute;
+    left: 470px;
+    top: -10px;
+}
+
+.list-sidebar {
+    line-height: 80px;
+    background-color: #2B2736;
+    width: 22.5%;
+    border-radius: 5px;
+    height: 1119px;
+    margin-top: -15px;
+}
+
+.list-sidebar a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.list-sidebar li {
+    list-style: none;
+}
+
+.table {
+    position: absolute;
+    margin-left: 800px;
+    bottom: 500px;
+}
+
+form {
+    position: relative;
+    bottom: 450px;
+    right: 110px;
+    margin: 50px;
+}
+
+label {
+    position: relative;
+    margin-left: 500px;
+    top: -15%;
+    bottom: 700px;
+}
+
+.btn-simpan {
+    position: relative;
+    left: 500px;
+    bottom: 700px;
+}
+
+h3 {
+    position: relative;
+    margin-left: 500px;
+    top: -15%;
+    bottom: 700px;
+}

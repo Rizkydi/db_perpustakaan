@@ -9,7 +9,7 @@ include 'koneksi.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Database Perpustakaan Starbhak Pusaka</title>
-    <link rel="stylesheet" href="style-tampilandatasiswa.css">
+    <link rel="stylesheet" href="style-tampilandatabuku.css">
     <!-- font inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,8 +31,8 @@ include 'koneksi.php';
             <li><a href="tampilandatabuku.php">Data Buku</a></li>
         </ul>
 <div class="table">
-<h3>Data Siswa</h3>
-    <h4><a href="tambahdata.html">(+) Add New data</a><br class="br">Data Siswa</br></h4>
+<h3>Data Buku</h3>
+    <h4><a href="tambahdata.html">(+) Add New data</a><br>Data Buku</br></h4>
     <table border "1" cellpadding="15">
        
      <tr>
