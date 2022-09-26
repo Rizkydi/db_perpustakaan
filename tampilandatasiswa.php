@@ -38,9 +38,9 @@ include 'koneksi.php';
      <tr>
             <th>NISN siswa</th>
             <th>nama siswa</th> 
-            <th>TGL_Peminjaman</th>
+            <th>TGL Peminjaman</th>
             <th>No telepon</th>
-            <th>TGL_Pengembalian</th>
+            <th>TGL Pengembalian</th>
             <th>action</th>
         </tr>        
         <?php
